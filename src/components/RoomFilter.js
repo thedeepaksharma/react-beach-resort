@@ -65,7 +65,7 @@ export default function RoomFilter({rooms}) {
                 <select 
                 name="capacity" 
                 id="capacity"
-                value={type}
+                value={capacity}
                 className="form-control"
                 onChange={handleChange}
                 >
